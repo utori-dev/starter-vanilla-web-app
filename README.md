@@ -31,6 +31,9 @@ To serve the app, run `npm start`.
 
 The app will be updated automatically as code changes are saved.
 
+To simulate a production environment, run `npm run start:production`.
+Note that the `webpack-dev-server` is not intended for use in production environments.
+
 ### Test: `npm test`
 
 To test the app, run `npm test`.

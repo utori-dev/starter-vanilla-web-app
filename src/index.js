@@ -1,5 +1,6 @@
 // Ensure that the styles from index.css are included.
 import './index.css';
+import registerServiceWorker from './registerServiceWorker';
 
 /**
  * Retrieve the root element for the app.
@@ -16,3 +17,5 @@ header.innerText = 'Hello World!';
 
 // Add the header to the app.
 app.appendChild(header);
+
+registerServiceWorker();
