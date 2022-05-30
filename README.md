@@ -2,17 +2,16 @@
 
 Starter web app with HTML, CSS, JavaScript, and development dependencies.
 
-Intended to be easily understood by a beginner to web development.
+This template is ideal for learning projects and simple prototypes:
 
-## Purpose
+- Intended to be easily understood by beginners to web development.
+- Commented configuration files to aid in learning.
+- Minimal dependencies to reduce complexity and abstractions.
 
-The purpose of this template is to be a starting point for a simple web app.
-
-This is intended to be an ideal starting point for learning and simple prototyping.
-This is not necessarily a good choice for production web apps.
-
-To aid in learning, each configuration file contains
-comments on what the tool is being configured and why the tool is important.
+This template is not an ideal starting point for most production web apps.
+To encourage learning and reduce abstractions, common dependencies like TypeScript were left out.
+Many common dependencies are useful for preventing bugs, increasing speed of development,
+reducing maintenance requirements, and improving readability.
 
 ## Scripts
 
