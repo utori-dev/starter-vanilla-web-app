@@ -1,3 +1,5 @@
+# This file tells Git which files and directories should not be tracked.
+
 # Logs
 logs
 *.log

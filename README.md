@@ -1,22 +1,18 @@
 # Simple Web App Template
 
-Starter web app with HTML, CSS, JavaScript, and development dependencies
+Starter web app with HTML, CSS, JavaScript, and development dependencies.
 
-## Usage
+Intended to be easily understood by a beginner to web development.
 
-### Create Repository from Template
+## Purpose
 
-1. On GitHub, select [**Use this template**][generate].
-1. Fill out the fields and click **Create repository from template**.
+The purpose of this template is to be a starting point for a simple web app.
 
-### Set Up Local Environment
+This is intended to be an ideal starting point for learning and simple prototyping.
+This is not necessarily a good choice for production web apps.
 
-You will need [Git] and [NodeJS] installed.
-Ensure [NodeJS] is version 16 or above.
-
-1. Clone the repository you've created from the template.
-1. Run `npm install` in the cloned repository.
-1. Run `npm start`. The app should open in the browser.
+To aid in learning, each configuration file contains
+comments on what the tool is being configured and why the tool is important.
 
 ## Scripts
 
@@ -26,20 +22,56 @@ To build the app, run `npm run build`.
 
 The generated output will be in the `dist/` directory.
 
+### Format: `npm run format`
+
+To format the source code, run `npm run format`.
+
 ### Serve: `npm start`
 
 To serve the app, run `npm start`.
 
 The app will be updated automatically as code changes are saved.
 
-**Note:** The [`webpack-dev-server`][dev-server] should only be used in development.
-It should not be used for production purposes.
-
 ### Test: `npm test`
 
 To test the app, run `npm test`.
 
-[git]: https://git-scm.com/
-[node.js]: https://nodejs.org/
+## Setting Up a Local Development Environment
+
+### Pre-requisites
+
+Before getting started, you will need [Git] and [Node.js].
+
+#### [Git]
+
+1. Open a terminal and run `git --version`
+1. If Git is not installed, follow
+   [the GitHub guide for setting up Git][github_docs_git]
+
+#### [Node.js]
+
+1. Open a terminal and run `node -v`
+1. If Node.js is not installed or is not `v16.0.0` or above, follow
+   [the official guide for installing Node.js][node_docs_install]
+
+### Instructions
+
+1. If you haven't already, [create a new GitHub repository from this template][generate].
+1. On your machine, open a terminal.
+1. Clone the repository you've created from the template.\
+   Run `git clone <your-repository-url> <some-directory>`
+1. Navigate to the directory where you cloned the repository.\
+   Run `cd <some-directory>`
+1. Install dependencies.\
+   Run `npm install`
+1. Serve app in development mode.\
+   Run `npm start`
+
+You are now ready to start coding!
+
+[babel]: https://babeljs.io/
 [generate]: https://github.com/utori-dev/template-vanilla-web-app/generate
-[dev-server]: https://webpack.js.org/configuration/dev-server/
+[git]: https://git-scm.com/
+[github_docs_git]: https://docs.github.com/en/get-started/quickstart/set-up-git
+[node.js]: https://nodejs.org/
+[node_docs_install]: https://nodejs.dev/learn/how-to-install-nodejs
