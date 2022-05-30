@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Web App</title>
-    <meta charset="utf-8" />
-    <link href="styles.css" rel="stylesheet" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div id="app"></div>
-    <script src="bundle.js"></script>
-  </body>
+<head>
+  <title>Web App</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Starter web app with HTML, CSS, JavaScript, and development dependencies.">
+  <meta name="theme-color" content="#4898da" />
+
+  <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link href="manifest.json" rel="manifest" />
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="bundle.js" max-age="31536000"></script>
+  <noscript>
+    <link rel="stylesheet" href="styles.css">
+  </noscript>
+</body>
+
 </html>

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Vanilla Web App Template",
+  "short_name": "Web App",
+  "start_url": ".",
+  "scope": "/",
+  "display": "minimal-ui",
+  "background_color": "#ffffff",
+  "theme_color": "#4898da",
+  "description": "Starter web app with HTML, CSS, JavaScript, and development dependencies.",
+  "icons": []
+}
