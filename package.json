@@ -1,5 +1,5 @@
 {
-  "name": "@utori-dev/starter-vanilla-web-app",
+  "name": "@utori-dev/template-vanilla-web-app",
   "version": "1.0.0",
   "description": "Starter web app with HTML, CSS, JavaScript, and development dependencies.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/utori-dev/starter-vanilla-web-app.git"
+    "url": "git+https://github.com/utori-dev/template-vanilla-web-app.git"
   },
   "keywords": [
     "html",
@@ -23,9 +23,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/utori-dev/starter-vanilla-web-app/issues"
+    "url": "https://github.com/utori-dev/template-vanilla-web-app/issues"
   },
-  "homepage": "https://github.com/utori-dev/starter-vanilla-web-app#readme",
+  "homepage": "https://github.com/utori-dev/template-vanilla-web-app#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",

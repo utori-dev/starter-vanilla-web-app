@@ -41,5 +41,5 @@ To test the app, run `npm test`.
 
 [git]: https://git-scm.com/
 [node.js]: https://nodejs.org/
-[generate]: https://github.com/utori-dev/starter-vanilla-web-app/generate
+[generate]: https://github.com/utori-dev/template-vanilla-web-app/generate
 [dev-server]: https://webpack.js.org/configuration/dev-server/
