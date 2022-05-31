@@ -1,22 +1,16 @@
 /**
  * Registers a service worker if supported by the browser.
  *
+ * @return {Promise<void>}
  * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers Using Service Workers}
  */
-function registerServiceWorker() {
+async function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker
-        .register('/service-worker.js')
-        .then((registration) => {
-          if (process.env.NODE_ENV !== 'production') {
-            console.log(`ServiceWorker Registered: ${registration}`);
-          }
-        })
-        .catch((error) => {
-          console.error(`ServiceWorker Registration Failed: ${error}`);
-        });
-    });
+    try {
+      await navigator.serviceWorker.register('/service-worker.js');
+    } catch (error) {
+      console.error('Cannot register Service Worker:', error);
+    }
   }
 }
 

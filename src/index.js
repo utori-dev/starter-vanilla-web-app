@@ -18,4 +18,4 @@ header.innerText = 'Hello World!';
 // Add the header to the app.
 app.appendChild(header);
 
-registerServiceWorker();
+window.addEventListener('load', registerServiceWorker);
